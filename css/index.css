@@ -1,0 +1,124 @@
+body{
+    background-image:
+    url("../IMG/4.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero h1{
+    font-family: 'Times New Roman', Times, serif;
+     color: rgb(82, 5, 59);
+    text-align: center;
+    }
+
+.hero p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 252, 252);
+    text-align: center;
+
+}
+.menu{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    position: sticky;
+    top:0;
+    background-color: rgb(167, 50, 183);
+    padding: 10px;
+
+}
+.menu a{
+  color: rgb(11, 11, 11);
+  font-weight: bold;
+
+}
+.nosotros h2{
+      font-family: 'Times New Roman', Times, serif;
+ color: rgb(82, 5, 59);
+    text-align: center;
+}
+.nosotros p{
+     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(245, 241, 241);
+    text-align: center;
+}
+.suenos h2,h3{
+       font-family: 'Times New Roman', Times, serif;
+    color: rgb(82, 5, 59);
+    text-align: center;
+}
+.suenos p{
+     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(251, 247, 247);
+    text-align: center;
+}
+.suenos img{
+     display: block;
+     margin: auto;
+}
+.frase h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+}
+header h1{
+    font-family: 'Times New Roman', Times, serif;
+     color: rgb(82, 5, 59);
+    text-align: center;
+}
+header p{
+     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 252, 252);
+    text-align: center;
+}
+.carros h2 {
+font-family: 'Times New Roman', Times, serif;
+     color: rgb(82, 5, 59);
+    text-align: center;
+}
+.carros img{
+    display: block;
+     margin: auto;
+}
+.carros p{
+     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 252, 252);
+    text-align: center;
+}
+.motos h2{
+    font-family: 'Times New Roman', Times, serif;
+     color: rgb(82, 5, 59);
+    text-align: center;
+}
+.motos img{
+    display: block;
+     margin: auto;
+}
+.motos p{
+       font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 252, 252);
+    text-align: center;
+}
+.datos_moto li{
+     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 252, 252);
+    text-align: center;
+}
+.reflexion{
+     font-family: Arial, Helvetica, sans-serif;
+       color: rgb(12, 12, 12);
+    text-align: center;
+}
+body h2{
+font-family: 'Times New Roman', Times, serif;
+     color: rgb(82, 5, 59);
+    text-align: center;
+}
+body p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 252, 252);
+    text-align: center;
+}
