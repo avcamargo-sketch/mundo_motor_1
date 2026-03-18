@@ -1,0 +1,74 @@
+
+.menu {
+    animation: aparecer 1s ease-in-out;
+}
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.menu a:hover{
+    animation: cambiarColor 0.3s forwards;
+}
+@keyframes cambiarColor {
+    to {
+        color:white;
+    }
+}
+ img {
+    animation: borde_neon 2s infinite;
+}
+
+@keyframes borde_neon {
+    0% {
+        box-shadow: 0 0 10px #00ffff;
+    }
+    50% {
+        box-shadow: 0 0 30px #00ffff;
+    }
+    200% {
+        box-shadow: 0 0 10px #00ffff;
+    }
+}
+    h1 {
+    text-shadow: 0 0 10px cyan,
+                 0 0 20px cyan,
+                 0 0 40px cyan;
+}
+h2 {
+    transition: transform 0.3s ease;
+}
+
+h2:hover {
+    transform: scale(1.1);
+}
+p {
+    animation: aparecerTexto 1s ease;
+}
+
+@keyframes aparecerTexto {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+h2  {
+    transition: color 0.3s ease;
+}
+
+h2:hover {
+    color:black;
+}
+
+
+
+

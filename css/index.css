@@ -33,6 +33,7 @@ body{
 .menu a{
   color: rgb(11, 11, 11);
   font-weight: bold;
+  text-decoration: none;
 
 }
 .nosotros h2{
